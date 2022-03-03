@@ -1,0 +1,101 @@
+.padding-bottom {
+  padding-bottom: 150px !important;
+}
+
+
+.menu-items .overlay .item {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  cursor: pointer;
+}
+
+.menu-items .overlay .overlay-content {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 22%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (max-width: 1766px) {
+  .menu-items .overlay .overlay-content {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .menu-items .overlay .overlay-content {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.menu-items .overlay:hover .item {
+  opacity: 0.2;
+}
+
+.menu-items .overlay:hover .overlay-content {
+  opacity: 1;
+}
+
+.menu-items .overlay .overlay-content span,
+.menu-items .overlay .overlay-content a {
+  transition: .3s all ease;
+}
+
+.menu-items .overlay .overlay-content span:hover,
+.menu-items .overlay .overlay-content a:hover{
+  color: darkgray;
+}
+
+.menu-items .overlay .overlay-content span > i,
+.menu-items .overlay .overlay-content a > i {
+  font-size: 30px;
+  color: white;
+  transition: .3s all ease;
+  cursor: pointer;
+}
+
+.menu-items .overlay .overlay-content span > i:hover,
+.menu-items .overlay .overlay-content a > i:hover {
+  color: crimson;
+}
+
+/* .menu-items .container-fuild .row .col-xl-3.col-lg-6.col-sm-6 {
+  height: 70vh !important;
+} */
+
+
+/* menu filter product */
+.menu-filter .col-6 > input {
+  background-color: transparent !important;
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+  height: 100%;
+  border-radius: 10px;
+  font-size: 38px;
+}
+
+.menu-filter .col-6 > input:hover,
+.menu-filter .col-6 > input:focus {
+  outline: none !important;
+  background-color: transparent !important;
+  color: white;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+
+

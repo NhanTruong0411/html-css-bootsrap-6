@@ -1,0 +1,38 @@
+.navbar .navbar-collapse .navbar-nav .active::after {
+  left: 14px;
+}
+
+.fa, .fas {
+  transition: .3s all ease;
+  position: relative;
+  top: 4px
+}
+
+.fa:hover, .fas:hover {
+  color: crimson;
+}
+
+
+table.table-bordered {
+  border:1px solid DimGray  ;
+  margin-top:20px;
+}
+table.table-bordered > thead > tr > th,
+#cart_nothing,
+#cart_nothing > td {
+  border:1px solid DimGray  ;
+}
+table.table-bordered > tbody > tr > td,
+#cart_nothing,
+#cart_nothing{
+  border:1px solid DimGray  ;
+}
+
+#cart_nothing {
+  border-width: 0;
+}
+
+#cart_nothing > td {
+  border-width: 0;
+}
+
